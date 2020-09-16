@@ -3,14 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-header{
-	height: 70px;
-	background-color: #ec715f;
-
-}
 .container{
 	margin: 0 auto;
 	width: 1024px;
+}
+
+
+header{
+	height: 70px;
+	background-color: #ec715f;
 }
 .logo{
 	height: 70px;
@@ -26,4 +27,181 @@ nav{
 	line-height: 70px;
 	/*float: left;*/
 	display: inline-block;
+}
+
+
+.main{
+	margin: 0 auto;
+	width:auto;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fafafa;
+}
+.title{
+	font-size: 64px;
+	/*padding-top: 200px;*/
+	padding: 200px 0 10px;
+}
+.text{
+	font-size: 20px;
+}
+
+.portfolio{
+	text-align: center;
+	color: #000000;
+	padding-bottom: 90px;
+	background-color: #eceff1;
+}
+.heading-title{
+	font-size: 32px;
+	padding-top: 90px;
+}
+.heading-title::after{
+	content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0;
+    background-color: #EC715F;
+}
+.heading-text{
+	font-size: 16px;
+	padding: 30px 0;
+}
+
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.production-group{
+	width: 920px;
+	margin: 0 auto;
+}
+.pic1{
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.pic2{
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.pic3{
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 0 10px 0;
+	float: left;
+}
+.pic4{
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.pic5{
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.pic6{
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 250px;
+	margin: 0 0 10px 0;
+	float: left;
+}
+
+
+.feature{
+	width: 980px;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+/*.strength-group{
+
+}*/
+.strength{
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+}
+.strength:last-child{
+	margin: 0;
+}
+.fa{
+	font-size: 60px;
+}
+.strength-title{
+	font-size: 20px;
+	margin: 10px 0;
+}
+.strength-text{
+	font-size: 16px;
+}
+
+
+.profile{
+	text-align: center;
+	color: #000000;
+	padding-bottom: 90px;
+	background-color: #eceff1;
+}
+.pro{
+	letter-spacing: -1em;
+    white-space: nowrap;
+}
+.left{
+	width: 512px;
+	display: inline-block;
+	letter-spacing: normal;
+    white-space: normal;
+	/*float: left;*/
+}
+.my-icon{
+	width: 250px;
+	height: 250px;
+	border-radius: 180px;
+}
+.right{
+	width: 512px;
+	text-align: left;
+	display: inline-block;
+	letter-spacing: normal;
+    white-space: normal;
+	/*float: left;*/
+}
+.discription-title{
+	font-size: 20px;
+	margin: 20px 0 5px;
+}
+.discription-text{
+	font-size: 16px;
 }
