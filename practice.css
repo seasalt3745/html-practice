@@ -156,7 +156,7 @@ nav{
 .strength:last-child{
 	margin: 0;
 }
-.fa{
+.f{
 	font-size: 60px;
 }
 .strength-title{
@@ -205,3 +205,65 @@ nav{
 .discription-text{
 	font-size: 16px;
 }
+
+.contact{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+	padding-bottom: 90px;
+}
+.cont{
+	letter-spacing: -1em;
+    white-space: nowrap;
+}
+.left2{
+	width: 400px;
+	text-align: left;
+	display: inline-block;
+	letter-spacing: normal;
+    white-space: normal;
+}
+.right2{
+	width: 400px;
+	text-align: left;
+	display: inline-block;
+	letter-spacing: normal;
+    white-space: normal;
+}
+.fb{
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+
+footer{
+	/*height: 60px;*/
+	background-color: #ec715f;
+}
+.foot{
+	text-align: center;
+	font-size: 16px;
+	color: #fafafa;
+	line-height: 60px;
+}
+
+
+@media screen and (max-width:768px) {
+	/**{
+		width: 90%;
+		margin: 0 5% 0 5%;
+	}*/
+}
+
+@media screen and (max-width: 425px){
+	header{
+		width: 100%;
+	}
+	.nav-list{
+		width: 100%;
+	}
+	.nav-list-item{
+		width: 100%;
+		margin:0 0 10px 0;
+	}
